@@ -1,0 +1,14 @@
+{
+  "type": "external",
+  "upstreamUrl": "https://tunapay-tx-classifier.fly.dev/mcp",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "description": "Optional admin API key for unlimited access (bypasses payment). Free tier: 100 calls without API key."
+      }
+    },
+    "required": []
+  }
+}
